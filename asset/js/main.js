@@ -27,4 +27,16 @@ $(".icon-subnav").click(function () {
         $(this).addClass("icon-subnav-active");
     }
 });
+// 
+$(window).resize(function(){
+ 
+    var width = $(window).width();
+    console.log(width);
+    if (width <= 480 || (width >= 768 && width <=910)){
+        $(".header-search").click(function(){
+                $('.header-choose-language').toggleClass('language-disable');
+        });
+    };
+    
+});
 });
