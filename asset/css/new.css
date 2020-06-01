@@ -1,0 +1,91 @@
+.section1-new{
+	background:url(https://globeinfinite.com/wp-content/uploads/2017/08/head-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 411px;
+}
+.section2-new{
+	padding-top: 40px;
+}
+.time-new{
+	font-size: 11px;
+	color: #C3C3C3;
+}
+.link-new-box{
+	    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #dd9933;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    transition: ease 0.3s;
+
+}
+.box-new{
+	background-color: #f0f0f0;
+	margin-bottom: 25px;
+	padding-bottom: 5px;
+}
+.link-new-box a{
+	color: #fff;
+}
+.time-new{
+	margin-top: 30px;
+	padding-left: 10px;
+}
+.time-new span>i{
+	margin-right: 5px;
+}
+.box-new-title{
+	font-size: 21px;
+	line-height: 26px !important;
+	letter-spacing: -1.2px;
+	color: #000;
+	font-weight: 700;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+.box-new-title>a{
+	color: #000;
+	text-decoration: none;
+}
+.time-detail-box{
+	margin-right: 15px;
+}
+.icon-heart{
+cursor: pointer;
+-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+}
+.icon-heart:hover{
+	color: red;
+
+}
+.box-new-title>a{
+	text-decoration: none !important;
+	font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 21px;
+    color: #2b2b2b;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.box-header-img{
+	width: 100%;
+
+}
+.img-box-new{
+	width: 100%;
+}

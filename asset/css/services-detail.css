@@ -1,0 +1,114 @@
+.section1-service-detail{
+}
+.carousel-service-detail{
+	position: relative;
+    padding: 0 !important;
+}
+.title-service-deatil{
+	font-size: 50px;
+	line-height: 50px;
+	
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: -3px;
+	top: 50%;
+}
+.section2-service-detail{
+	background: url(E:/golbeinfinitine/asset/img/login-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.section2-services-detail{
+	z-index: 2;
+}
+
+.pagination-title{
+	margin-top: 50px;
+}
+.pagination-title p{
+	font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Romanesco', cursive;
+
+	
+	text-align: center;
+	font-size: 30px;
+	
+}
+.wpb_content_element span{
+	text-align: center;
+}
+/**/
+.number-like{
+	display: block;
+    min-width: 100px;
+    background: #ccc;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.dfd-single-item-bottom {
+	float: right;
+}
+.conten-slick-severvices-det{
+	font-size: 2.7rem !important;
+}
+.section2-services-detail div.slick-header-section img.img-slider{
+	height: 258px;
+}
+.section2-services-detail div.dfd-heading-section{
+	padding-top: 0px;
+}
+.wpb_content_element{
+	font-size: 20px;
+	font-family: 'Italianno', cursive;
+	font-size: italic;
+}
+.list-link-social-services{
+	font-size: 30px;
+}
+.icon-fb{
+	color: var(--facebook-color);
+}
+.icon-gg{
+	color: var(--google-color);
+}
+.icon-tw{
+	color: var(--twitter-color)
+}
+.icon-insta{
+	color: var(--instagram-color);
+}
+.icon-prt{
+	color: var(--pinterest-color);
+}
+.icon-reddit{
+	color: var(--reddit-color);
+}
+.list-link-social-services li a{
+	transition: ease 0.4s;
+}
+.list-link-social-services>li>a:hover{
+	box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2);
+	transform: perspective(1200px) translateY(-2px);
+}
+a.number-like.navbar-brand{
+	    line-height: 38px;
+    padding: 0 20px 0 15px;
+    color: #393939;
+    font-weight: 700;
+    white-space: nowrap;
+    border-radius: 38px;
+    position: relative;
+        box-shadow: 0 10px 27px 0px transparent;
+        transition: all .3s ease;
+            transform: perspective(0) translateY(0);
+}
+a.number-like.navbar-brand:hover{
+	transform: perspective(400px) translateY(-2px);
+	    box-shadow: 0 10px 27px 0px rgba(0,0,0,0.2);;
+	    color: red;
+	    background-color: #fff;
+}

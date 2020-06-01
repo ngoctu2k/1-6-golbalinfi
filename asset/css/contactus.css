@@ -1,0 +1,136 @@
+.section1-contactus{
+	padding: 0 !important;
+}
+.contacus_bg{
+	background: url(https://globeinfinite.com/wp-content/uploads/2017/08/head-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 411px;
+	
+}
+.contacus_bg>div.container{
+	height: 100%;
+	position: relative;
+
+}
+h1 .title-page-center{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50% ,-50%);
+	   -moz-transform: translate(-50% ,-50%);
+	    -ms-transform: translate(-50% ,-50%);
+	     -o-transform: translate(-50% ,-50%);
+	        transform: translate(-50% ,-50%);
+}
+.section2-contacus{
+	padding: 40px 0 40px 0;
+}
+.infor-about-us{
+	text-align: center;
+}
+.infor-about-us>h3{
+	font-size: 35px;
+	font-weight: 700;
+	color: #2d2c2c;
+	line-height: 38px;
+	letter-spacing: -1.5px;
+	margin-bottom: 5px;
+
+}
+.work-time{
+	color: #a7a7a7;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	position: relative;
+}
+.work-time::after{
+	content: "";
+	display: block;
+	position: absolute;
+	border-bottom: 1px solid #bd9f54;
+	bottom: 0;
+}
+.list-infor-about-us li{
+border: none;
+padding: 10px;
+font-size: 16px;
+font-weight: 400;
+color: #333;
+}
+.list-infor-about-us>li>i:first-child{
+	margin-right: 10px;
+}
+.icon-viber{
+	color: #7c529c;
+}
+.icon-whatsapp{
+	color: #2ab200;
+}
+.delim-center{
+	position: relative;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #9c9c9c;
+	line-height: 14px;
+	letter-spacing: 0.6px;
+}
+.delim-center:after{
+	    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    border-bottom: 1px solid #e6e7ec;
+       width: 45%;
+    margin-right: 5%;
+
+}
+.delim-center::before{
+	    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border-bottom: 1px solid #e6e7ec;
+       width: 45%;
+    margin-left: 5%;
+       
+}
+.form-contact{
+	padding-top: 10px;
+}
+.form-contact input{
+	outline: none !important;
+	background-color: #eff0f5;
+	height:calc(1.5em + .75rem + 14px);
+}
+.form-contact label{
+	color: #5c5c5c;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 14px;
+	letter-spacing: 0.6px;
+}
+.form-message{
+	height: 100px !important;
+}
+.form-group.sen-message{
+	text-align: center;
+}
+button.btn.btn-primary.btn-message{
+	    border-radius: 20px;
+    height: 45px;
+    min-width: 159px;
+	outline: none !important;
+	font-size: 1.6rem;
+}
+.google-map iframe{
+	width: 100%
+}

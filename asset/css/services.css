@@ -1,0 +1,135 @@
+section.section2-services {
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+    background: url("./asset/img/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-section2-service a{
+	text-decoration: none;
+
+}
+.card-section2-service a img{
+min-height: 300px;
+max-width: 100%;
+transform: scale(1);
+transition: ease 0.8s;
+
+}
+.container-image:hover img.img-hover{
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.container-image:hover .link-service{
+	display: none;
+}
+.card-section2-service p.card-text{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	line-height: 18px;
+	color: #2b2b2b;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2
+
+
+}
+.container-image {
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+.container-image div.overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(43, 43, 43,0.2);
+	display: none;
+	z-index: 10;
+}
+a.link-service{
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: #dd9933;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	    padding: 5px 15px;
+    border-radius: 3px;
+    transition: ease 0.3s 
+}
+.container-image:hover .overlay{
+	display: block;
+
+}
+.card.card-section2-service{
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+	     -o-transition: all 1s ease;
+	        transition: all 1s ease;
+
+	 border: none;       
+}
+.card.card-section2-service:hover{
+	-webkit-box-shadow: 0px 12px 22px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 12px 22px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 12px 22px 1px rgba(0,0,0,0.75);
+}
+.card-body:hover p.card-text{
+	color: #6b6b6b;
+}
+.overlay span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50% -50%);
+	   -moz-transform: translate(-50% -50%);
+	    -ms-transform: translate(-50% -50%);
+	     -o-transform: translate(-50% -50%);
+	        transform: translate(-50% -50%);
+	color: #fff;
+	-webkit-transform: scale(0);
+	   -moz-transform: scale(0);
+	    -ms-transform: scale(0);
+	     -o-transform: scale(0);
+	        transform: scale(0);
+	      -webkit-transition: all 0.8s ease;
+	         -moz-transition: all 0.8s ease;
+	          -ms-transition: all 0.8s ease;
+	           -o-transition: all 0.8s ease;
+	              transition: all 0.8s ease;
+	        
+}
+.overlay:hover span{
+	-webkit-transform: scale(4);
+	   -moz-transform: scale(4);
+	    -ms-transform: scale(4);
+	     -o-transform: scale(4);
+	        transform: scale(4);
+}
+/*mobile:width<740px*/
+@media screen and (max-width: 739px){
+	.card-section2-service a img {
+		height: 250px;
+	}
+};
+/*tablet*/
+@media screen and (min-width: 740px ) and (max-width: 1023px){
+	
+};
+/*PC width>=1024px*/
+@media screen and (min-width: 1024px){
+	
+}
