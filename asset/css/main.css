@@ -1185,15 +1185,5 @@ button.site-close-handle{
 		height: 30px;
 	}
 }
-@media screen and (min-width:768px) and (max-width: 910px) {
-	.link-header-logo img{
-		padding-right: 0 !important;
-	}
-	.list-header-category li a{
-		padding: 0 11px !important;
-	}
-	.input-search-header-active{
-		width: 100px !important;
-	}
-}
+
 

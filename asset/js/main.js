@@ -13,7 +13,7 @@ $(document).ready(function () {
         $(".form-search-header").toggleClass("form-search-header-active");
         $(".input-search-header").toggleClass("input-search-header-active");
         $(".button-search-header").toggleClass("button-search-header-active");
-        
+          $('.header-choose-language').toggleClass('language-disable');
     });
 
 
@@ -29,11 +29,7 @@ $(".icon-subnav").click(function () {
 });
 // 
 
-    if ($('.link-header-logo img').css('padding-right') == '0px !important'){
-        $(".header-search").click(function(){
-                $('.header-choose-language').toggleClass('language-disable');
-        });
-    };
+
     
 });
 
