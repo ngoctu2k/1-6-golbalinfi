@@ -679,7 +679,7 @@ p.wpb_content_element {
 	height: 90px;
 }
 .slider-img-section6-home img{
-	max-width: 100%;
+	max-width: 70%;
 	max-height: 100%;
 	border-radius: 50%;
 	height: 90px;
@@ -707,7 +707,7 @@ p.wpb_content_element {
 }
 .container-img-slick-section-6-home{
 	text-align: center;
-	padding-bottom: 37px;
+	padding-bottom: 25px;
 	display: flex;
     justify-content: center;
     width: 100%;
@@ -730,7 +730,7 @@ p.wpb_content_element {
     text-align: center;
 
 }
-img.col-4.slick-slide.slick-current.slick-active.slick-center{
+.slick-slide.slick-current.slick-active.slick-center img{
 	-webkit-transform: scale(1);
 	   -moz-transform: scale(1);
 	    -ms-transform: scale(1);
