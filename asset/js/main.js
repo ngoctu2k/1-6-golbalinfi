@@ -28,15 +28,12 @@ $(".icon-subnav").click(function () {
     }
 });
 // 
-$(window).resize(function(){
- 
-    var width = $(window).width();
-    console.log(width);
-    if (width <= 480 || (width >= 768 && width <=910)){
+
+    if ($('.link-header-logo img').css('padding-right') == '0px !important'){
         $(".header-search").click(function(){
                 $('.header-choose-language').toggleClass('language-disable');
         });
     };
     
 });
-});
+
