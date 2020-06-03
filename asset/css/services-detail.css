@@ -13,6 +13,10 @@
 	letter-spacing: -3px;
 	top: 50%;
 }
+.img-banner-services-detail{
+	height: 411px;
+	width: 100%;
+}
 .section2-service-detail{
 	background: url(E:/golbeinfinitine/asset/img/login-bg.jpg);
 	background-repeat: no-repeat;

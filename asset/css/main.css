@@ -32,7 +32,7 @@
 div.main-content{
 	background-color: #fff;
 	padding-bottom: 80px;
-	margin-bottom: 150px;
+/*	margin-bottom: 150px;*/
 }
 header.header{
 	background: rgba(0,0,0,0.8);
@@ -56,6 +56,7 @@ h1.title-page-center{
     text-align: center;
     text-transform: none;
     line-height: 50px;
+    width: 100%;
 }
 
 .header-top{
@@ -379,7 +380,7 @@ a i.link-whatsapp{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
-	
+	width: 100%;
 }
 .wpb_content_element h1{
 	font-weight: bold;
@@ -424,12 +425,12 @@ div#exampleModal {
 }
 /*ssss*/
 section.section-home{
-	
+	padding-bottom: 150px;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
 	background-position:bottom !important;
 	background-attachment: scroll !important;
-	height: 860px;
+	height: auto;
 	min-width: 100%;
 	position: relative;
 	background-color: #fff;
@@ -444,10 +445,11 @@ section.section5-home{
 	background: url(https://globeinfinite.com/wp-content/uploads/2017/02/taxi-airport.jpg);
 	padding-top: 80px;
 	text-align: center;
+	padding-bottom: 500px;
 }
 .slick-header-section {
 	max-width: 100%;
-	top: -10%;
+	top:-80px;
 }
 
 
@@ -481,6 +483,7 @@ section.section5-home{
 	margin-right: 10px;
 	overflow: hidden;
 	position: relative;
+	height: 100%;
 }
 
 .slick-dots li button {
@@ -570,7 +573,7 @@ div.dfd-content-subtitle{
 
 .dfd-heading-section{
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 90px;
 	width: 100%;
 }
 h2.dfd-textmodule-featured-decoration{
@@ -683,11 +686,11 @@ p.wpb_content_element {
 	max-height: 100%;
 	border-radius: 50%;
 	
-	-webkit-transform: scale(0.6);
-	   -moz-transform: scale(0.6);
-	    -ms-transform: scale(0.6);
-	     -o-transform: scale(0.6);
-	        transform: scale(0.6);
+	-webkit-transform: scale(0.7);
+	   -moz-transform: scale(0.7);
+	    -ms-transform: scale(0.7);
+	     -o-transform: scale(0.7);
+	        transform: scale(0.7);
 	opacity: 0.5;
 	-webkit-transition: all .4s ease;
 	   -moz-transition: all .4s ease;
@@ -717,25 +720,26 @@ p.wpb_content_element {
 }
 .slick-slider-section6-home{
 	margin-top: 50px;
+	padding: 0 25px;
 }
 .header-section6{
-	top:-20% ;
+		top: -200px !important ;
 	    width: 100%;
 	    position: relative;
 
 
 }
 .testimonial-section6-home{
-
+	margin-top: -110px;
     text-align: center;
 
 }
 img.avatar-person.slick-slide.slick-current.slick-active.slick-center{
-	-webkit-transform: scale(0.7);
-	   -moz-transform: scale(0.7);
-	    -ms-transform: scale(0.7);
-	     -o-transform: scale(0.7);
-	        transform: scale(0.7);
+	-webkit-transform: scale(0.8);
+	   -moz-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	     -o-transform: scale(0.8);
+	        transform: scale(0.8);
 	opacity: 1;
 }
 div.content-detal-slide-testimonials{
@@ -1012,8 +1016,18 @@ button.site-close-handle{
 	 	position: relative;
 	 	z-index: 2;
 	 }
-	 section.section-home{
-		height: 800px;
+		.slick-header-section{
+		top: -40px;
+	}
+	section.section5-home.section-home{
+		padding-bottom: 350px !important;
+		padding-top: 40px;
+	}
+	section.section4-home.section-home{
+		padding-bottom: 40px;
+	}
+	.slick-header-section img.img-slider{
+		height: -webkit-fill-available;
 	}
 	.space-top{
 		display: none;
@@ -1049,9 +1063,8 @@ button.site-close-handle{
 	hr.hr-dfd-textmodule-featured-decoration, hr.hr-dfd-content-title-big, hr.hr-dfd-content-subtitle-section5{
 		margin-bottom: 0;
 	}
-	.section.section5-home{
-		padding-top: 40px;
-	}
+	
+
 	.dfd-content-subtitle-section5{
 		padding: 0;
 		font-size: 1.4rem;
@@ -1069,9 +1082,7 @@ button.site-close-handle{
 	.section-home div.container{
 		max-width: unset !important;
 	}
-	.testimonial-section6-home{
-		padding: 0 5%;
-	}
+	
 	.dfd-heading-section{
 		padding-top: 0;
 	}
@@ -1086,9 +1097,7 @@ button.site-close-handle{
 	.slick-prev:before, .slick-next:before{
 		color: #fff !important;
 	}
-	.section.section5-home{
-		padding-top: 40px;
-	}
+
 	.container{
 		max-width: 100%;
 	}
@@ -1098,16 +1107,11 @@ button.site-close-handle{
 	div.main-content{
 		margin-bottom: 0;
 	}
-	.section5-home{
-		    height: auto !important;
-    padding-bottom: 80px;
-	}
+	
 	.Testimonials-title-testimonial{
 		font-size: 2.4rem;
 	}
-	.container-carousel {
-		padding-top: 50px;
-	}
+	
 	.contacus_bg{
 		height: 142px !important;
 	}
@@ -1132,6 +1136,22 @@ button.site-close-handle{
 	.dfd-single-item-bottom{
 		float: unset !important;
 	}
+	.img-banner-services-detail{
+		height: 142px;
+		width: 100%;
+	}
+	.img-box-new{
+		height: 250px;
+	}
+	.card-section2-service a img{
+		height: 250px;
+	}
+	.img-box-new{
+		height: 250px !important;
+	}
+	.box-new-title>a{
+		font-size: 18px;
+	}
 }
 @media screen and (max-width:910px){
 	.list-link-social-services{
@@ -1154,22 +1174,26 @@ button.site-close-handle{
 		font-size: 30px !important;
 		line-height: 30px;
 	}
+	section.section-home{
+		padding-bottom: 90px;
+	}
+	.slick-header-section img.img-slider{
+		height: ;
+	}
 }
 @media screen and (max-width: 480px){
-	.section4-home{
-		height: 1000px !important;
-	}
+	
 	.input-search-header-active{
 		width: 90px !important;
 	}
-	
+
 	
 	.h2.dfd-title{
 		font-size: 4rem;
 	}
-	/*.header-search{
-		display: none;
-	}*/
+	.slick-slider-section6-home{
+		padding: 0;
+	}
 	.link-header-logo img{
 		padding-right: 0px !important;
 	}
