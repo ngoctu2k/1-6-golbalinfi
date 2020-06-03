@@ -1027,7 +1027,7 @@ button.site-close-handle{
 		padding-bottom: 40px;
 	}
 	.slick-header-section img.img-slider{
-		height: -webkit-fill-available;
+		height: 250px;
 	}
 	.space-top{
 		display: none;
@@ -1149,9 +1149,10 @@ button.site-close-handle{
 	.img-box-new{
 		height: 250px !important;
 	}
-	.box-new-title>a{
-		font-size: 18px;
+	.title-slider-item{
+		font-size: 2.8rem;
 	}
+
 }
 @media screen and (max-width:910px){
 	.list-link-social-services{
